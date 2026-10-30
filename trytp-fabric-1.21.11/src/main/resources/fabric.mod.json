@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "trytp",
+  "version": "${version}",
+  "name": "TryTP",
+  "description": "A simple client-side helper for sending normal server teleport requests.",
+  "authors": ["TryTP"],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.trytp.TryTPClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
